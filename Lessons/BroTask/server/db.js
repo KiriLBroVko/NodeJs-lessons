@@ -1,4 +1,4 @@
-var jsonObject = {
+exports.fruitsObject = {
     fruits: [
         {
             name: 'orange',
