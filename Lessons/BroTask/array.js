@@ -28,6 +28,3 @@ function LoopArray(array){
     }
 }
 LoopArray([23, "Nodejs", true, "12"]);
-// arr.forEach((item, index, array) => {
-//     console.log(`${item} имеет позицию ${index} в ${array}`)
-// });
