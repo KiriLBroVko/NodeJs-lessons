@@ -6,8 +6,6 @@ var athlete = {
     position: "SF",
     hight: 203
 };
-
-var valarr = Object.keys(athlete).map(function(key) {
-    return athlete[key];
-});
-console.log(valarr);
+console.log("Array of values:");
+const arrayValuesList = Object.values(athlete);
+console.log(arrayValuesList);
