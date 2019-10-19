@@ -7,7 +7,7 @@ var athlete = {
     hight: 203
 };
 
-var valarr = Object.getOwnPropertyNames(athlete).map(function(key) {
+var valarr = Object.keys(athlete).map(function(key) {
     return athlete[key];
 });
 console.log(valarr);
