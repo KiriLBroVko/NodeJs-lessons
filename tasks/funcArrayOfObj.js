@@ -32,14 +32,12 @@ var arrayListOfObjects = [
 ];
 
 function getThirdObj(array) {
-    array.forEach(function(item, index, array) {
-        Object.keys(item)
-            .forEach(function eachKey(key) { 
-                if (key === 'id' && item[key]===3){
-                    console.log("true");
-                    console.log(item);
-                } 
-            });
-    });
-}
-getThirdObj(arrayListOfObjects);
+    var objID = null;
+        array.forEach(function(item, index, array) {
+            if (item.id === 3) {
+                objID = item;
+            }
+        });
+        return objID;
+    }
+console.log(getThirdObj(arrayListOfObjects));
