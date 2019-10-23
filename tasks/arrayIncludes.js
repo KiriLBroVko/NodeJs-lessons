@@ -3,9 +3,8 @@
 var arrayNumber = [1, 2, 5, 8, 10];
 
 function ifItsFiveinArray(array) {
-    if (array.includes(5)) {
-        return "Array includes " + 5;
-    };
-}
+        return "Array includes " + array.includes(5);
+};
+
 var result = ifItsFiveinArray(arrayNumber);
 console.log(result);
