@@ -3,7 +3,7 @@
 var arrayNumber = [1, 2, 5, 8, 10];
 
 function ifItsFiveinArray(array) {
-    if (array.includes(5) === true) {
+    if (array.includes(5)) {
         return "Array includes " + 5;
     };
 }
