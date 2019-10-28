@@ -33,11 +33,11 @@ var arrayListOfObjects = [
 
 function getThirdObj(array) {
     var objID = null;
-        array.forEach(function(item, index, array) {
+        array.forEach(function(item) {
             if (item.id === 3) {
                 objID = item;
             }
         });
         return objID;
-    }
+}
 console.log(getThirdObj(arrayListOfObjects));
