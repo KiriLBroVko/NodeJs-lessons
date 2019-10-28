@@ -3,9 +3,9 @@
 
 function increaseCount() {
     // some code
-    var increase = 1;
+    var counter = 1;
     return function(){
-        return increase++;
+        return counter++;
     }
 }
 
